@@ -42,7 +42,26 @@ function Content() {
             </p>
         </div>
     </div>
-</div>
+        </div>
+        <div className="">
+    <h2 className="mb-3 text-4xl font-bold text-gray-800 uppercase">
+        education
+    </h2>
+    <div className="grid grid-cols-2 gap-6 mb-6 place-items-center">
+        <div className="">
+                <p className="text-xl font-light font-gray-700">
+                    2014 September -
+                2018 June
+                </p> 
+            </div>
+            <div className="">
+                <p className="text-lg font-medium text-gray-700">
+                    Bachelor of Science in Computer Science,
+                    San Francisco Bay University
+                </p>
+            </div>
+    </div>
+        </div>
 
     </div>
   )
