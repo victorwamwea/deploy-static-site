@@ -61,6 +61,11 @@ function Content() {
                 </p>
             </div>
     </div>
+    <div className="">
+    <h2 className="mb-3 text-4xl font-bold text-gray-800 uppercase">
+        skills
+    </h2>
+    </div>
         </div>
 
     </div>
