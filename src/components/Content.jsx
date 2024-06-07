@@ -66,6 +66,11 @@ function Content() {
         skills
     </h2>
     </div>
+    <div className="">
+    <h2 className="mb-3 text-4xl font-bold text-gray-800 uppercase">
+        certificate block
+    </h2>
+    </div>
         </div>
 
     </div>
