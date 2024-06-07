@@ -70,6 +70,14 @@ function Content() {
     <h2 className="mb-3 text-4xl font-bold text-gray-800 uppercase">
         certificate block
     </h2>
+    <div className="grid grid-cols-3 gap-4">
+        <span className=""></span>
+        <span className=""></span>
+        <span className=""></span>
+        <span className=""></span>
+        <span className=""></span>
+        <span className=""></span>
+    </div>
     </div>
         </div>
 
