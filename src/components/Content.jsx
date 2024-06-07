@@ -1,3 +1,4 @@
+import { GiGraduateCap } from "react-icons/gi";
 function Content() {
   return (
     <div className='max-w-4xl px-10 py-6 mx-auto bg-white'>
@@ -45,7 +46,7 @@ function Content() {
         </div>
         <div className="">
     <h2 className="mb-3 text-4xl font-bold text-gray-800 uppercase">
-        education
+    <GiGraduateCap /> education
     </h2>
     <div className="grid grid-cols-2 gap-6 mb-6 place-items-center">
         <div className="">
