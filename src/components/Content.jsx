@@ -69,13 +69,31 @@ function Content() {
         <span className=""></span>
     </h2>
     <div className="grid grid-cols-3 gap-4">
-        <span className="">CCNA</span>
-        <span className="">AWS Solutions Architect</span>
-        <span className="">Google Technical Support</span>
-        <span className="">Project Management</span>
-        <span className="">Python</span>
-        <span className="">Web Development</span>
-    </div>
+    <span className="flex items-center">
+        <svg className="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+        CCNA
+    </span>
+    <span className="flex items-center">
+        <svg className="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+        AWS Solutions Architect
+    </span>
+    <span className="flex items-center">
+        <svg className="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+        Google Technical Support
+    </span>
+    <span className="flex items-center">
+        <svg className="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+        Project Management
+    </span>
+    <span className="flex items-center">
+        <svg className="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+        Python
+    </span>
+    <span className="flex items-center">
+        <svg className="w-4 h-4 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+        Web Development
+    </span>
+</div>
 
     </div>
     <div className="">
