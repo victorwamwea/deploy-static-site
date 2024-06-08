@@ -63,9 +63,10 @@ function Content() {
                 </p>
             </div>
     </div>
-    <div className="">
+    <div className="mb-6">
     <h2 className="mb-3 text-4xl font-bold text-gray-800 uppercase">
         certificate
+        <span className=""></span>
     </h2>
     <div className="grid grid-cols-3 gap-4">
         <span className="">CCNA</span>
@@ -75,15 +76,32 @@ function Content() {
         <span className="">Python</span>
         <span className="">Web Development</span>
     </div>
+
     </div>
     <div className="">
     <h2 className="mb-3 text-4xl font-bold text-gray-800 uppercase">
         skills
     </h2>
+    <div className="">
+        <ul className="grid grid-cols-3 pl-5 list-disc">
+            <li className="text-xl text-gray-700">HTML & CSS</li>
+            <li className="text-xl text-gray-700">JavaScript</li>
+            <li className="text-xl text-gray-700">React.js</li>
+            <li className="text-xl text-gray-700">Node.js</li>
+            <li className="text-xl text-gray-700">Express.js</li>
+            <li className="text-xl text-gray-700">MongoDB</li>
+            <li className="text-xl text-gray-700">RESTful APIs</li>
+            <li className="text-xl text-gray-700">Version Control (Git)</li>
+            <li className="text-xl text-gray-700">Responsive Design</li>
+            <li className="text-xl text-gray-700">Testing & Debugging</li>
+            <li className="text-xl text-gray-700">Django</li>
+            <li className="text-xl text-gray-700">Python</li>
+        </ul>
     </div>
-        </div>
+</div>
 
     </div>
+        </div>
   )
 }
 
