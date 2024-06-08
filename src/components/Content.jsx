@@ -1,4 +1,5 @@
 import { GiGraduateCap } from "react-icons/gi";
+import { BsBriefcaseFill } from "react-icons/bs";
 function Content() {
   return (
     <div className='max-w-4xl px-10 py-6 mx-auto bg-white'>
@@ -15,7 +16,7 @@ function Content() {
         </div>
         <div className="">
     <h2 className="mb-3 text-4xl font-bold text-gray-800 uppercase">
-        professional experience
+    <BsBriefcaseFill /> professional experience
     </h2>
     <div className="grid grid-cols-2 gap-6 mb-6 place-items-center">
         <div className="">
@@ -69,15 +70,15 @@ function Content() {
     </div>
     <div className="">
     <h2 className="mb-3 text-4xl font-bold text-gray-800 uppercase">
-        certificate block
+        certificate
     </h2>
     <div className="grid grid-cols-3 gap-4">
-        <span className=""></span>
-        <span className=""></span>
-        <span className=""></span>
-        <span className=""></span>
-        <span className=""></span>
-        <span className=""></span>
+        <span className="">CCNA</span>
+        <span className="">AWS Solutions Architect</span>
+        <span className="">Google Technical Support</span>
+        <span className="">Project Management</span>
+        <span className="">Python</span>
+        <span className="">Web Development</span>
     </div>
     </div>
         </div>
