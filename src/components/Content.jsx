@@ -65,11 +65,6 @@ function Content() {
     </div>
     <div className="">
     <h2 className="mb-3 text-4xl font-bold text-gray-800 uppercase">
-        skills
-    </h2>
-    </div>
-    <div className="">
-    <h2 className="mb-3 text-4xl font-bold text-gray-800 uppercase">
         certificate
     </h2>
     <div className="grid grid-cols-3 gap-4">
@@ -80,6 +75,11 @@ function Content() {
         <span className="">Python</span>
         <span className="">Web Development</span>
     </div>
+    </div>
+    <div className="">
+    <h2 className="mb-3 text-4xl font-bold text-gray-800 uppercase">
+        skills
+    </h2>
     </div>
         </div>
 
