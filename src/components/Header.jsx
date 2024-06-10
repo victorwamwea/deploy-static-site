@@ -6,11 +6,11 @@ function Header() {
     <>
     <section className="flex flex-col justify-center gap-6 p-10 mt-1 bg-white rounded-t-sm">
         <div className="">
-            <h2 className="text-5xl font-bold text-center text-violet-800">
+            <h2 className="text-3xl font-bold text-center md:text-5xl text-violet-800">
                 Andrew Sullivan
             </h2>
         </div>
-        <div className="flex items-center justify-center gap-4">
+        <div className="flex flex-col gap-4 md:items-center md:justify-center md:flex-row">
             <span className="flex items-center gap-2 text-lg font-light">
                 <IoLocationSharp className="text-xl text-violet-800"/>
                 4 Noel, London, England
