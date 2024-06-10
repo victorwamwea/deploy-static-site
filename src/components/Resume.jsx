@@ -3,7 +3,7 @@ import Header from './Header'
 function Resume() {
   return (
     <>
-    <section className="min-h-[100vh] bg-slate-200">
+    <section className="">
         <Header/>
         <Content/>
     </section>
