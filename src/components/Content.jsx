@@ -24,7 +24,7 @@ function Content() {
             Professional Experience
         </h2>
         <hr className="bg-violet-800 h-1.5 w-[36px]"/>
-        <div className="">
+        <div className="mt-2">
             <div className="">
                 <div className="flex items-center justify-between">
                     <div className="">
@@ -77,7 +77,7 @@ function Content() {
             Education
         </h2>
         <hr className="bg-violet-800 h-1.5 w-[36px]"/>
-        <div className="">
+        <div className="mt-2">
             <div className="flex justify-between mb-4">
                 <div className="">
                     <h2 className="mb-1 text-lg font-medium text-gray-800">
