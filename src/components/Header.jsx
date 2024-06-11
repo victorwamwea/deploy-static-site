@@ -4,7 +4,7 @@ import { IoLocationSharp } from "react-icons/io5";
 function Header() {
   return (
     <>
-    <section className="flex flex-col justify-center gap-6 p-10 mt-1 bg-white rounded-t-sm">
+    <section className="flex flex-col justify-center gap-6 px-10 py-2 mt-1 bg-white rounded-t-sm">
         <div className="">
             <h2 className="text-3xl font-bold text-center md:text-5xl text-violet-800">
                 Andrew Sullivan
