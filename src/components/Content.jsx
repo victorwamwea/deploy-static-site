@@ -1,5 +1,6 @@
 import { VscBriefcase } from "react-icons/vsc";
 import { HiOutlineIdentification } from "react-icons/hi2";
+import { GiGraduateCap } from "react-icons/gi";
 function Content() {
   return (
     <>
@@ -71,11 +72,11 @@ function Content() {
         </div>
     </section>
     <section className="px-8 py-4 bg-white">
-        <h2 className="mb-3 text-2xl font-bold text-gray-900 uppercase">
-            <i className="fa-solid fa-graduation-cap"></i>
+        <h2 className="flex items-center gap-1 text-2xl font-bold text-gray-900 uppercase">
+            <GiGraduateCap size={26}/>
             Education
-            <hr className="bg-violet-800 h-1.5 mt-1 w-[50px]"/>
         </h2>
+        <hr className="bg-violet-800 h-1.5 w-[36px]"/>
         <div className="">
             <div className="flex justify-between mb-4">
                 <div className="">
