@@ -4,6 +4,7 @@ import { GiGraduateCap } from "react-icons/gi";
 function Content() {
   return (
     <>
+    {/* Profile Section */}
     <section className="px-8 py-4 bg-white">
         <h2 className="flex items-center gap-1 text-2xl font-bold text-gray-900 uppercase">
             <HiOutlineIdentification size={24}/>
@@ -18,6 +19,7 @@ function Content() {
             </p>
         </div>
     </section>
+    {/* Professional Experience section */}
     <section className="px-8 py-4 bg-white">
         <h2 className="flex items-center gap-1 text-2xl font-bold text-gray-900 uppercase">
             <VscBriefcase size={24}/>
@@ -71,6 +73,7 @@ function Content() {
             </div>
         </div>
     </section>
+    {/* Education Section  */}
     <section className="px-8 py-4 bg-white">
         <h2 className="flex items-center gap-1 text-2xl font-bold text-gray-900 uppercase">
             <GiGraduateCap size={26}/>
@@ -111,6 +114,34 @@ function Content() {
                 </p>
             </div>
         </div>
+    </section>
+    {/* Skills Section  */}
+    <section className="px-8 py-4 bg-white">
+        <h2 className="mb-4 text-2xl font-bold text-gray-900 uppercase">
+            <i className="fa-solid fa-gears"></i>
+            Skills
+            <hr className="bg-violet-800 h-1.5 mt-1 w-[50px]"/>
+        </h2>
+        <ul className="grid grid-cols-2 gap-2 list-disc list-inside marker:text-violet-500">
+            <li className="p-2 text-lg font-light border-2 rounded-lg border-violet-50 text-slate-900">
+                Product development and strategy
+            </li>
+            <li className="p-2 text-lg font-light border-2 rounded-lg border-violet-50 text-slate-900">
+                Project management and team leadership
+            </li>
+            <li className="p-2 text-lg font-light border-2 rounded-lg border-violet-50 text-slate-900">
+                Customer needs analysis and market research
+            </li>
+            <li className="p-2 text-lg font-light border-2 rounded-lg border-violet-50 text-slate-900">
+                Data analysis
+            </li>
+            <li className="p-2 text-lg font-light border-2 rounded-lg border-violet-50 text-slate-900">
+                Financial modeling and budgeting
+            </li>
+            <li className="p-2 text-lg font-light border-2 rounded-lg border-violet-50 text-slate-900">
+                Stakeholder management
+            </li>
+        </ul>            
     </section>
     </>
   )
