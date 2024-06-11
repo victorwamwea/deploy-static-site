@@ -4,14 +4,14 @@ import { IoLocationSharp } from "react-icons/io5";
 function Header() {
   return (
     <>
-    <section className="flex flex-col justify-center gap-6 px-10 py-2 mt-1 bg-white rounded-t-sm">
+    <section className="flex flex-col justify-center gap-6 px-10 py-6 bg-white rounded-t-sm md:mt-1 md:py-2">
         <div className="">
             <h2 className="text-3xl font-bold text-center md:text-5xl text-violet-800">
                 Andrew Sullivan
             </h2>
         </div>
-        <div className="flex flex-col gap-4 md:items-center md:justify-center md:flex-row">
-            <span className="flex items-center gap-2 text-lg font-light">
+        <div className="flex flex-col justify-center w-full gap-4 mx-10 md:mx-0 md:items-center md:flex-row">
+            <span className="flex items-center gap-2 text-lg font-light ">
                 <IoLocationSharp className="text-xl text-violet-800"/>
                 4 Noel, London, England
             </span>
