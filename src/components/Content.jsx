@@ -1,6 +1,7 @@
 import { VscBriefcase } from "react-icons/vsc";
 import { HiOutlineIdentification } from "react-icons/hi2";
 import { GiGraduateCap } from "react-icons/gi";
+import { FaGears } from "react-icons/fa6";
 function Content() {
   return (
     <>
@@ -118,7 +119,7 @@ function Content() {
     {/* Skills Section  */}
     <section className="px-8 py-4 bg-white">
         <h2 className="mb-4 text-2xl font-bold text-gray-900 uppercase">
-            <i className="fa-solid fa-gears"></i>
+            <FaGears className="fa-solid fa-gears" />
             Skills
             <hr className="bg-violet-800 h-1.5 mt-1 w-[50px]"/>
         </h2>
