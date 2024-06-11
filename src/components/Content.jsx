@@ -124,22 +124,22 @@ function Content() {
             <hr className="bg-violet-800 h-1.5 mt-1 w-[50px]"/>
         </h2>
         <ul className="grid grid-cols-2 gap-2 list-disc list-inside marker:text-violet-500">
-            <li className="p-2 text-lg font-light border-2 rounded-lg border-violet-50 text-slate-900">
+            <li className="p-2 font-light border-2 rounded-lg text-md border-violet-50 text-slate-900">
                 Product development and strategy
             </li>
-            <li className="p-2 text-lg font-light border-2 rounded-lg border-violet-50 text-slate-900">
+            <li className="p-2 font-light border-2 rounded-lg text-md border-violet-50 text-slate-900">
                 Project management and team leadership
             </li>
-            <li className="p-2 text-lg font-light border-2 rounded-lg border-violet-50 text-slate-900">
+            <li className="p-2 font-light border-2 rounded-lg text-md border-violet-50 text-slate-900">
                 Customer needs analysis and market research
             </li>
-            <li className="p-2 text-lg font-light border-2 rounded-lg border-violet-50 text-slate-900">
+            <li className="p-2 font-light border-2 rounded-lg text-md border-violet-50 text-slate-900">
                 Data analysis
             </li>
-            <li className="p-2 text-lg font-light border-2 rounded-lg border-violet-50 text-slate-900">
+            <li className="p-2 font-light border-2 rounded-lg text-md border-violet-50 text-slate-900">
                 Financial modeling and budgeting
             </li>
-            <li className="p-2 text-lg font-light border-2 rounded-lg border-violet-50 text-slate-900">
+            <li className="p-2 font-light border-2 rounded-lg text-md border-violet-50 text-slate-900">
                 Stakeholder management
             </li>
         </ul>            
