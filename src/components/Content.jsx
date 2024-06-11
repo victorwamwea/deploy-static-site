@@ -70,6 +70,47 @@ function Content() {
             </div>
         </div>
     </section>
+    <section className="px-8 py-4 bg-white">
+        <h2 className="mb-3 text-2xl font-bold text-gray-900 uppercase">
+            <i className="fa-solid fa-graduation-cap"></i>
+            Education
+            <hr className="bg-violet-800 h-1.5 mt-1 w-[50px]"/>
+        </h2>
+        <div className="">
+            <div className="flex justify-between mb-4">
+                <div className="">
+                    <h2 className="mb-1 text-lg font-medium text-gray-800">
+                        Master of Business Administration (MBA)<br/>
+                    </h2>
+                    <p className="italic font-light text-gray-900 text-md">
+                        Munich University
+                    </p>
+                </div>
+                <p className="italic font-light text-gray-800 text-md">
+                    <span className="text-violet-800">
+                        08/2013 - 07/2015 <br/>
+                    </span>
+                    Munich, Germany
+                </p>
+            </div>
+            <div className="flex justify-between">
+                <div className="">
+                    <h2 className="mb-1 text-lg font-medium text-gray-800">
+                        Bachelor of Engineering in Information Technology<br/>
+                    </h2>
+                    <p className="italic font-light text-gray-900 text-md">
+                        Technical University
+                    </p>
+                </div>
+                <p className="italic font-light text-gray-800 text-md">
+                    <span className="text-violet-800">
+                        08/2009 - 07/2013<br/>
+                    </span>
+                    Vienna, Austria
+                </p>
+            </div>
+        </div>
+    </section>
     </>
   )
 }
