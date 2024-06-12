@@ -118,7 +118,7 @@ function Content() {
     </section>
     {/* Skills Section  */}
     <section className="px-8 py-4 bg-white">
-        <h2 className="mb-4 text-2xl font-bold text-gray-900 uppercase">
+        <h2 className="flex items-center gap-1 text-2xl font-bold text-gray-900 uppercase ">
             <FaGears className="fa-solid fa-gears" />
             Skills
         </h2>
