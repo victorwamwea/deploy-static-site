@@ -121,8 +121,8 @@ function Content() {
         <h2 className="mb-4 text-2xl font-bold text-gray-900 uppercase">
             <FaGears className="fa-solid fa-gears" />
             Skills
-            <hr className="bg-violet-800 h-1.5 mt-1 w-[50px]"/>
         </h2>
+        <hr className="bg-violet-800 h-1.5 mt-1 w-[36px]"/>
         <ul className="grid grid-cols-2 gap-2 list-disc list-inside marker:text-violet-500">
             <li className="p-2 font-light border-2 rounded-lg text-md border-violet-50 text-slate-900">
                 Product development and strategy
