@@ -118,28 +118,28 @@ function Content() {
     </section>
     {/* Skills Section  */}
     <section className="px-8 py-4 bg-white">
-        <h2 className="flex items-center gap-1 text-2xl font-bold text-gray-900 uppercase ">
-            <FaGears size={24} />
+        <h2 className="flex items-center gap-1 font-bold text-gray-900 uppercase text-md lg:text-2xl ">
+            <FaGears className="text-md md:text-2xl" />
             Skills
         </h2>
-        <hr className="bg-violet-800 h-1.5 mt-1 w-[36px]"/>
+        <hr className="bg-violet-800 h-1.5 mt-1 w-[30px] md:w-[36px]"/>
         <ul className="grid gap-2 list-disc list-inside lg:grid-cols-2 marker:text-violet-500">
-            <li className="p-2 font-light border-2 rounded-lg text-md border-violet-50 text-slate-900">
+            <li className="p-2 text-xs font-light border-2 rounded-lg md:text-md border-violet-50 text-slate-900">
                 Product development and strategy
             </li>
-            <li className="p-2 font-light border-2 rounded-lg text-md border-violet-50 text-slate-900">
+            <li className="p-2 text-xs font-light border-2 rounded-lg md:text-md border-violet-50 text-slate-900">
                 Project management and team leadership
             </li>
-            <li className="p-2 font-light border-2 rounded-lg text-md border-violet-50 text-slate-900">
+            <li className="p-2 text-xs font-light border-2 rounded-lg md:text-md border-violet-50 text-slate-900">
                 Customer needs analysis and market research
             </li>
-            <li className="p-2 font-light border-2 rounded-lg text-md border-violet-50 text-slate-900">
+            <li className="p-2 text-xs font-light border-2 rounded-lg md:text-md border-violet-50 text-slate-900">
                 Data analysis
             </li>
-            <li className="p-2 font-light border-2 rounded-lg text-md border-violet-50 text-slate-900">
+            <li className="p-2 text-xs font-light border-2 rounded-lg md:text-md border-violet-50 text-slate-900">
                 Financial modeling and budgeting
             </li>
-            <li className="p-2 font-light border-2 rounded-lg text-md border-violet-50 text-slate-900">
+            <li className="p-2 text-xs font-light border-2 rounded-lg md:text-md border-violet-50 text-slate-900">
                 Stakeholder management
             </li>
         </ul>            
