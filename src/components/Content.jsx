@@ -82,12 +82,12 @@ function Content() {
         </h2>
         <hr className="bg-violet-800 h-1.5 w-[36px]"/>
         <div className="mt-2">
-            <div className="flex justify-between mb-4">
+            <div className="flex flex-col-reverse mb-4 md:justify-between">
                 <div className="">
-                    <h2 className="mb-1 text-lg font-medium text-gray-800">
+                    <h2 className="mb-1 font-medium text-gray-800 md:text-lg text-md">
                         Master of Business Administration (MBA)<br/>
                     </h2>
-                    <p className="italic font-light text-gray-900 text-md">
+                    <p className="italic font-light text-gray-900 ">
                         Munich University
                     </p>
                 </div>
@@ -123,7 +123,7 @@ function Content() {
             Skills
         </h2>
         <hr className="bg-violet-800 h-1.5 mt-1 w-[36px]"/>
-        <ul className="grid grid-cols-2 gap-2 list-disc list-inside marker:text-violet-500">
+        <ul className="grid gap-2 list-disc list-inside lg:grid-cols-2 marker:text-violet-500">
             <li className="p-2 font-light border-2 rounded-lg text-md border-violet-50 text-slate-900">
                 Product development and strategy
             </li>
