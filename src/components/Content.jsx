@@ -119,7 +119,7 @@ function Content() {
     {/* Skills Section  */}
     <section className="px-8 py-4 bg-white">
         <h2 className="flex items-center gap-1 text-2xl font-bold text-gray-900 uppercase ">
-            <FaGears className="fa-solid fa-gears" />
+            <FaGears size={24} />
             Skills
         </h2>
         <hr className="bg-violet-800 h-1.5 mt-1 w-[36px]"/>
