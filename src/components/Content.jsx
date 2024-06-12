@@ -76,11 +76,11 @@ function Content() {
     </section>
     {/* Education Section  */}
     <section className="px-8 py-4 bg-white">
-        <h2 className="flex items-center gap-1 text-2xl font-bold text-gray-900 uppercase">
-            <GiGraduateCap size={26}/>
+        <h2 className="flex items-center gap-1 font-bold text-gray-900 uppercase text-md md:text-2xl">
+            <GiGraduateCap className="text-xl md:text-3xl"/>
             Education
         </h2>
-        <hr className="bg-violet-800 h-1.5 w-[36px]"/>
+        <hr className="bg-violet-800 h-1.5 w-[30px] md:w-[36px]"/>
         <div className="mt-2">
             <div className="flex flex-col-reverse mb-4 md:justify-between">
                 <div className="">
