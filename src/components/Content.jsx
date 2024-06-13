@@ -31,8 +31,8 @@ function Content() {
             <div className="">
                 <div className="flex items-center justify-between">
                     <div className="">
-                        <h2 className="mb-1 text-2xl font-medium text-gray-800">Solutions Inc</h2>
-                        <p className="mb-2 text-xl italic font-light text-gray-900">
+                        <h2 className="mb-1 font-medium text-gray-800 text-md lg:text-2xl">Solutions Inc</h2>
+                        <p className="mb-2 text-sm italic font-light text-gray-900 lg:text-xl">
                             Product Specialist
                         </p>
                     </div>
@@ -53,8 +53,8 @@ function Content() {
             <div className="">
                 <div className="flex items-center justify-between">
                     <div className="">
-                        <h2 className="mb-1 text-lg font-medium text-gray-800 lg:text-2xl">Technite Solutions</h2>
-                        <p className="mb-2 italic font-light text-gray-900 text-md lg:text-xl">
+                        <h2 className="mb-1 font-medium text-gray-800 text-md lg:text-2xl">Technite Solutions</h2>
+                        <p className="mb-2 text-sm italic font-light text-gray-900 lg:text-xl">
                             Product Manager
                         </p>
                     </div>
