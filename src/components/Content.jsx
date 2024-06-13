@@ -53,8 +53,8 @@ function Content() {
             <div className="">
                 <div className="flex items-center justify-between">
                     <div className="">
-                        <h2 className="mb-1 text-2xl font-medium text-gray-800">Technite Solutions</h2>
-                        <p className="mb-2 text-xl italic font-light text-gray-900">
+                        <h2 className="mb-1 text-lg font-medium text-gray-800 lg:text-2xl">Technite Solutions</h2>
+                        <p className="mb-2 italic font-light text-gray-900 text-md lg:text-xl">
                             Product Manager
                         </p>
                     </div>
@@ -68,8 +68,8 @@ function Content() {
                     </div>
                 </div>
                 <ul className="ml-4 list-disc marker:text-violet-500">
-                    <li className="text-lg font-light text-gray-900">Led a cross-functional team of 10 people in the development of a new product line, resulting in a 20% increase in revenue</li>
-                    <li className="text-lg font-light text-gray-900">Conducted market analysis and competitive studies to identify new product opportunities and expand the product portfolio</li>
+                    <li className="mb-2 font-light text-gray-900 lg:mb-1 text-md md:text-lg">Led a cross-functional team of 10 people in the development of a new product line, resulting in a 20% increase in revenue</li>
+                    <li className="mb-2 font-light text-gray-900 lg:mb-1 text-md md:text-lg">Conducted market analysis and competitive studies to identify new product opportunities and expand the product portfolio</li>
                 </ul>
             </div>
         </div>
@@ -123,23 +123,23 @@ function Content() {
             Skills
         </h2>
         <hr className="bg-violet-800 h-1.5 mt-1 w-[30px] md:w-[36px]"/>
-        <ul className="grid gap-2 list-disc list-inside lg:grid-cols-2 marker:text-violet-500">
-            <li className="p-2 text-xs font-light border-2 rounded-lg md:text-md border-violet-50 text-slate-900">
+        <ul className="grid gap-2 mt-4 list-disc list-inside lg:grid-cols-2 marker:text-violet-500">
+            <li className="p-2 text-sm font-light border-2 rounded-lg lg:text-md border-violet-50 text-slate-900">
                 Product development and strategy
             </li>
-            <li className="p-2 text-xs font-light border-2 rounded-lg md:text-md border-violet-50 text-slate-900">
+            <li className="p-2 text-sm font-light border-2 rounded-lg lg:text-md border-violet-50 text-slate-900">
                 Project management and team leadership
             </li>
-            <li className="p-2 text-xs font-light border-2 rounded-lg md:text-md border-violet-50 text-slate-900">
+            <li className="p-2 text-sm font-light border-2 rounded-lg lg:text-md border-violet-50 text-slate-900">
                 Customer needs analysis and market research
             </li>
-            <li className="p-2 text-xs font-light border-2 rounded-lg md:text-md border-violet-50 text-slate-900">
+            <li className="p-2 text-sm font-light border-2 rounded-lg lg:text-md border-violet-50 text-slate-900">
                 Data analysis
             </li>
-            <li className="p-2 text-xs font-light border-2 rounded-lg md:text-md border-violet-50 text-slate-900">
+            <li className="p-2 text-sm font-light border-2 rounded-lg lg:text-md border-violet-50 text-slate-900">
                 Financial modeling and budgeting
             </li>
-            <li className="p-2 text-xs font-light border-2 rounded-lg md:text-md border-violet-50 text-slate-900">
+            <li className="p-2 text-sm font-light border-2 rounded-lg lg:text-md border-violet-50 text-slate-900">
                 Stakeholder management
             </li>
         </ul>            
