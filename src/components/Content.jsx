@@ -37,7 +37,7 @@ function Content() {
                         </p>
                     </div>
                     <div className="my-3">
-                        <p className="italic font-light text-gray-800 text-md">
+                        <p className="text-xs italic font-light text-gray-800 lg:text-md">
                             <span className="text-violet-800">
                                 08/2018 - 07/2023
                             </span> <br/>
@@ -46,8 +46,8 @@ function Content() {
                     </div>
                 </div>
                 <ul className="ml-4 list-disc marker:text-violet-500">
-                    <li className="text-lg font-light text-gray-900">Developed and implemented a product strategy for the European market, resulting in a 25% revenue growth</li>
-                    <li className="mb-2 text-lg font-light text-gray-900">Conducted training sessions and presentations for customers and sales teams to enhance product knowledge</li>
+                    <li className="mb-2 font-light text-gray-900 text-md lg:text-lg">Developed and implemented a product strategy for the European market, resulting in a 25% revenue growth</li>
+                    <li className="mb-2 font-light text-gray-900 text-md lg:text-lg">Conducted training sessions and presentations for customers and sales teams to enhance product knowledge</li>
                 </ul>
             </div>
             <div className="">
@@ -59,7 +59,7 @@ function Content() {
                         </p>
                     </div>
                     <div className="my-3">
-                        <p className="italic font-light text-gray-800 text-md">
+                        <p className="text-xs italic font-light text-gray-800 lg:text-md">
                             <span className="text-violet-800">
                                 04/2015 - 07/2018
                             </span> <br/>
