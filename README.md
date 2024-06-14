@@ -7,6 +7,13 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
 ## Benefits of S3
 - Durable: The services provided allow your app to scale without fluctuating downtime.
 - Highly available: It is available across so many data regions worldwide.
+## Deploying a static website
+ There are several ways to host your website:
+ - Using the S3 console
+ - Using the AWS software development kit
+ - Using the AWS command line interface
+   
+We will use the S3 console to deploy and host a website in this project.
 
  
 
