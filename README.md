@@ -17,6 +17,6 @@ We will use the S3 console to deploy and host a website in this project.
 
 # Step 1
  ### Create a bucket
-A bucket is like a container housing the project's different components, like the assets, which may include images, video files, code documents (index.html), and so on.
+A bucket is a container for objects. To store your data in Amazon S3, you first create a bucket and specify a bucket name and AWS Region. Then, you upload your data to that bucket as objects in Amazon S3.
  
 
