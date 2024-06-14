@@ -15,5 +15,8 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
    
 We will use the S3 console to deploy and host a website in this project.
 
+# Step 1
+ ### Create a bucket
+A bucket is like a container housing the project's different components, like the assets, which may include images, video files, code documents (index.html), and so on.
  
 
