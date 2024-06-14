@@ -4,3 +4,9 @@
 ## What is Amazon S3?
 Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance.
 
+## Benefits of S3
+- Durable: The services provided allow your app to scale without fluctuating downtime.
+- Highly available: It is available across so many data regions worldwide.
+
+ 
+
