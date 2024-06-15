@@ -20,4 +20,5 @@ We will use the S3 console to deploy and host a website in this project.
 A bucket is a container for objects. To store your data in Amazon S3, you first create a bucket and specify a bucket name and AWS Region. Then, you upload your data to that bucket as objects in Amazon S3.
 ![s3](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/fc04633e-cd28-4990-8189-0e602b60a2fb)
  ###  setup the S3 Bucket to store objects.
+ *Give a globally unique name and region to your bucket.*
 ![bucket1](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/c173acd6-8588-4f8d-9c7b-ea46aeef0898)
