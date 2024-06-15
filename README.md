@@ -26,3 +26,5 @@ A bucket is a container for objects. To store your data in Amazon S3, you first 
 
 - Block all public access - It provides an additional layer of security for your data, preventing unauthorized access and ensuring that your data is protected at all times.
 ![bucket3](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/765e1544-33b6-46e1-9af9-78986464d240)
+![bucket4](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/e1904b0b-08e0-4795-9801-5c503c117601)
+![bucket5](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/936b6638-e861-489c-9c5d-cfb24b489e2a)
