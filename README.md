@@ -22,3 +22,5 @@ A bucket is a container for objects. To store your data in Amazon S3, you first 
  ###  setup the S3 Bucket to store objects.
  *Give a globally unique name and region to your bucket.*
 ![bucket1](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/c173acd6-8588-4f8d-9c7b-ea46aeef0898)
+![bucket2](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/c13ac49c-8af2-4138-8cfa-3b434d054dce)
+![bucket3](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/765e1544-33b6-46e1-9af9-78986464d240)
