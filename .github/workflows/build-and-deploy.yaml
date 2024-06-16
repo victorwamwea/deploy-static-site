@@ -30,3 +30,9 @@ jobs:
      
      - name: Build Static Website
        run : npm run build
+
+     - name: Copy files to the production website with the AWS CLI
+       run: |
+        aws cloudfront create-invalidation \
+        --distribution-id ${{env.DIST_ID}} \
+        --paths "/*"
