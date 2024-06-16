@@ -11,3 +11,11 @@ jobs:
      DIST: build
      REGION: ap-south-1
      DIST_ID: <ID>
+
+    steps:
+     - name: Checkout
+       uses: actions/checkout@v2
+
+     - name: Configure AWS Credentials
+       uses: aws-actions/configure-aws-credentials@v1
+       
