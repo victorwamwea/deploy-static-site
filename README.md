@@ -36,4 +36,5 @@ Amazon CloudFront is a web service that speeds up distribution of your static an
 ### How you set up CloudFront to deliver content
  - You specify origin servers, like an Amazon S3 bucket or your own HTTP server, from which CloudFront gets your files which will then be distributed from CloudFront edge locations all over the 
    world.
+- You upload your files to your origin servers. Your files, also known as objects, typically include web pages, images, and media files, but can be anything that can be served over HTTP.
 
