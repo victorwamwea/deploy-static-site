@@ -33,3 +33,5 @@ A bucket is a container for objects. To store your data in Amazon S3, you first 
 
 ## What is Cloudfront?
 Amazon CloudFront is a web service that speeds up distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users
+### How you set up CloudFront to deliver content
+
