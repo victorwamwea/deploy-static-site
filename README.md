@@ -38,6 +38,7 @@ Amazon CloudFront is a web service that speeds up distribution of your static an
    world.
  -  For Origin, Origin domain, choose the S3 bucket that you created for this tutorial.
  -  For Origin, Origin access, select Origin access control settings (recommended).
+ -  For Origin access control, choose Create new OAC.
 
 
 
