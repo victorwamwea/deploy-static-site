@@ -40,6 +40,7 @@ Amazon CloudFront is a web service that speeds up distribution of your static an
  -  For Origin, Origin access, select Origin access control settings (recommended).
  -  For Origin access control, choose Create new OAC.
  -  In the Create new OAC pane, keep the default settings and choose Create.
+ -  For all other sections and settings, accept the default values. For more information about these options, see Distribution settings.
 
 
 
