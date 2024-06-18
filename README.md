@@ -37,6 +37,7 @@ Amazon CloudFront is a web service that speeds up distribution of your static an
  - You specify origin servers, like an Amazon S3 bucket or your own HTTP server, from which CloudFront gets your files which will then be distributed from CloudFront edge locations all over the 
    world.
  -  For Origin, Origin domain, choose the S3 bucket that you created for this tutorial.
+ -  For Origin, Origin access, select Origin access control settings (recommended).
 
 
 
