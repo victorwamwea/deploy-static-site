@@ -31,6 +31,8 @@ A bucket is a container for objects. To store your data in Amazon S3, you first 
 ### Now let's upload some objects in S3 bucket.
 ![bucket6](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/4c75a633-4aee-4cb1-9cd2-e109f1138153)
 
+# Step 2
+
 ## What is Cloudfront?
 Amazon CloudFront is a web service that speeds up distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users
 ### How you set up CloudFront to deliver content
