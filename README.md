@@ -51,4 +51,7 @@ Amazon CloudFront is a web service that speeds up distribution of your static an
 ![cloudfront7](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/9d0acef4-2876-429c-afef-78266798b633)
 
 ### In The S3 bucket policy needs to be updated banner, read the message and choose Copy policy.
+ - In the same banner, choose the link to Go to S3 bucket permissions to update policy. (This takes you to your bucket detail page in the Amazon S3 console.)
+   ![cloudfront8](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/90768257-bb61-4c2e-ba3c-ae1b8b0be9cc)
+
 
