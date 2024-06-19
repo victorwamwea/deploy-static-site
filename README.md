@@ -47,4 +47,6 @@ Amazon CloudFront is a web service that speeds up distribution of your static an
  -  For all other sections and settings, accept the default values.
  -  For Web Application Firewall (WAF), select one of the options.
 ![cloudfront6](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/9b9301c0-e574-4b4d-889e-f9a9c624f1f8)
+- Choose Create distribution.
+![cloudfront7](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/9d0acef4-2876-429c-afef-78266798b633)
 
