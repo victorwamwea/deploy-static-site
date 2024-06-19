@@ -29,3 +29,29 @@ A bucket is a container for objects. To store your data in Amazon S3, you first 
 ![bucket4](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/e1904b0b-08e0-4795-9801-5c503c117601)
 ![bucket5](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/936b6638-e861-489c-9c5d-cfb24b489e2a)
 ### Now let's upload some objects in S3 bucket.
+![bucket6](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/4c75a633-4aee-4cb1-9cd2-e109f1138153)
+
+# Step 2
+
+## What is Cloudfront?
+Amazon CloudFront is a web service that speeds up distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users
+### How you set up CloudFront to deliver content
+![cloudfront1](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/a6bb239e-9493-4155-a371-69d4b9c3d6a7)
+ - You specify origin servers, like an Amazon S3 bucket or your own HTTP server, from which CloudFront gets your files which will then be distributed from CloudFront edge locations all over the 
+   world.
+ -  For Origin, Origin domain, choose the S3 bucket that you created for this tutorial.
+ -  For Origin, Origin access, select Origin access control settings (recommended).
+ -  For Origin access control, choose Create new OAC.
+ -  In the Create new OAC pane, keep the default settings and choose Create.
+  ![cloudfron3](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/c7434810-238c-46c6-8b0c-99a1c8336f71)
+ -  For all other sections and settings, accept the default values.
+ -  For Web Application Firewall (WAF), select one of the options.
+![cloudfront6](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/9b9301c0-e574-4b4d-889e-f9a9c624f1f8)
+- Choose Create distribution.
+![cloudfront7](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/9d0acef4-2876-429c-afef-78266798b633)
+
+### In The S3 bucket policy needs to be updated banner, read the message and choose Copy policy.
+ - In the same banner, choose the link to Go to S3 bucket permissions to update policy. (This takes you to your bucket detail page in the Amazon S3 console.)
+   ![cloudfront8](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/90768257-bb61-4c2e-ba3c-ae1b8b0be9cc)
+
+
