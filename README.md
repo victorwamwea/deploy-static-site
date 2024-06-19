@@ -34,6 +34,7 @@ A bucket is a container for objects. To store your data in Amazon S3, you first 
 ## What is Cloudfront?
 Amazon CloudFront is a web service that speeds up distribution of your static and dynamic web content, such as .html, .css, .js, and image files, to your users
 ### How you set up CloudFront to deliver content
+![cloudfront1](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/a6bb239e-9493-4155-a371-69d4b9c3d6a7)
  - You specify origin servers, like an Amazon S3 bucket or your own HTTP server, from which CloudFront gets your files which will then be distributed from CloudFront edge locations all over the 
    world.
  -  For Origin, Origin domain, choose the S3 bucket that you created for this tutorial.
