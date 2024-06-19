@@ -37,6 +37,7 @@ Amazon CloudFront is a web service that speeds up distribution of your static an
  - You specify origin servers, like an Amazon S3 bucket or your own HTTP server, from which CloudFront gets your files which will then be distributed from CloudFront edge locations all over the 
    world.
  -  For Origin, Origin domain, choose the S3 bucket that you created for this tutorial.
+     ![cloudfron3](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/c7434810-238c-46c6-8b0c-99a1c8336f71)
  -  For Origin, Origin access, select Origin access control settings (recommended).
  -  For Origin access control, choose Create new OAC.
  -  In the Create new OAC pane, keep the default settings and choose Create.
