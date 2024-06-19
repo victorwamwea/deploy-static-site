@@ -45,6 +45,6 @@ Amazon CloudFront is a web service that speeds up distribution of your static an
  -  In the Create new OAC pane, keep the default settings and choose Create.
   ![cloudfron3](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/c7434810-238c-46c6-8b0c-99a1c8336f71)
  -  For all other sections and settings, accept the default values.
-
-
+ -  For Web Application Firewall (WAF), select one of the options.
+![cloudfront6](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/9b9301c0-e574-4b4d-889e-f9a9c624f1f8)
 
