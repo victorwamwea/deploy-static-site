@@ -44,7 +44,7 @@ Amazon CloudFront is a web service that speeds up distribution of your static an
  -  For Origin access control, choose Create new OAC.
  -  In the Create new OAC pane, keep the default settings and choose Create.
   ![cloudfron3](https://github.com/zablon-oigo/deploy-static-site-on-amazon-s3/assets/143833326/c7434810-238c-46c6-8b0c-99a1c8336f71)
- -  For all other sections and settings, accept the default values. For more information about these options, see Distribution settings.
+ -  For all other sections and settings, accept the default values.
 
 
 
