@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BUCKET: ${{ secrets.BUCKET_NAME }}
-      DIST: build
+      DIST: dist 
       REGION: eu-north-1
       DIST_ID: ${{ secrets.DIST_ID }}
 
