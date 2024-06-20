@@ -8,10 +8,10 @@ jobs:
     name: Build and Deploy
     runs-on: ubuntu-latest
     env:
-      BUCKET: <BUCKET_NAME>
+      BUCKET: ${{ secrets.BUCKET_NAME }}
       DIST: build
       REGION: eu-north-1
-      DIST_ID: <ID>
+      DIST_ID: ${{ secrets.DIST_ID }}
 
     steps:
     - name: Checkout
@@ -27,8 +27,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '20.x'  
-        steps:
+        node-version: '20.x'
 
     - name: Install Dependencies
       run: |
